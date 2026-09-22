@@ -1,0 +1,16 @@
+# MkDocs compilado
+site/
+
+# Entornos virtuales de Python
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

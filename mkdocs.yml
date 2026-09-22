@@ -1,0 +1,50 @@
+site_name: Proyecto Intermodular ASIR 2 - Guillermo Díaz Núñez
+site_description: Documentación oficial del Proyecto Integrado / Intermodular de ASIR 2
+site_author: Guillermo Díaz Núñez
+repo_name: Guillermo262728/ASIR2_PIMAS_GuillermoDiazNunez
+repo_url: https://github.com/Guillermo262728/ASIR2_PIMAS_GuillermoDiazNunez
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+  - attr_list
+
+nav:
+  - Portada y Resumen: index.md
+  - 1. Introducción: 01_introduccion.md
+  - 2. Marco Tecnológico: 02_marco_tecnologico.md
+  - 3. Desarrollo: 03_desarrollo.md
+  - 4. Resultados: 04_resultados.md
+  - 5. Conclusiones: 05_conclusiones.md
+  - 6. Bibliografía: 06_bibliografia.md
+  - 7. Anexos: 07_anexos.md
