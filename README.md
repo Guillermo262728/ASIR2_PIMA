@@ -20,5 +20,29 @@ Breve caracterización del proyecto, motivación principal y problema que viene 
 
 ---
 
+## Estructura del Proyecto
+
+```text
+ASIR2_PIMAS_GuillermoDiazNunez/
+├── anexos/                  # Documentos complementarios, diagramas y recursos adicionales
+├── docs/                    # Documentación técnica y memoria en Markdown (MkDocs)
+│   ├── index.md             # Portada y resumen ejecutivo
+│   ├── 01_introduccion.md   # Introducción, justificación y alcance
+│   ├── 02_marco_tecnologico.md # Stack tecnológico, software y requisitos
+│   ├── 03_desarrollo.md     # Implementación, configuración y despliegue
+│   ├── 04_resultados.md     # Pruebas de funcionamiento y validación
+│   ├── 05_conclusiones.md   # Conclusiones y líneas de mejora futuras
+│   ├── 06_bibliografia.md   # Fuentes consultadas y referencias web
+│   └── 07_anexos.md         # Anexos técnicos de la memoria
+├── scripts/                 # Scripts de aprovisionamiento, despliegue y automatización
+├── src/                     # Código fuente y archivos de configuración del proyecto
+├── .gitignore               # Exclusiones de control de versiones Git
+├── mkdocs.yml               # Archivo de configuración de MkDocs (tema Material)
+└── README.md                # Presentación y resumen general del repositorio
+```
+
+---
+
 > [!NOTE]
 > La documentación técnica completa y detallada está estructurada con **MkDocs** en la carpeta `docs/`.
+
