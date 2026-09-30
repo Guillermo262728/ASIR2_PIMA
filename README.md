@@ -40,7 +40,7 @@ ASIR2_PIMAS_GuillermoDiazNunez/
 ├── mkdocs.yml               # Archivo de configuración de MkDocs (tema Material)
 └── README.md                # Presentación y resumen general del repositorio
 ```
-
+HOLA
 ---
 
 > [!NOTE]
